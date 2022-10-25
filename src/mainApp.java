@@ -4,7 +4,7 @@ public class mainApp {
         Author author_1 = new Author("Mark", "Twain");
         Author author_2 = new Author("Stephen", "King");
         //Создание объекта класса Author с одним пустым полем - для теста
-        Author author_3 = new Author("", "wwww");
+        Author author_3 = new Author("", "www");
 
         Book book_1 = new Book(author_1, 1903, "A Dog’s Tale");
         Book book_2 = new Book(author_2, 1983, "Pet Cemetery");
